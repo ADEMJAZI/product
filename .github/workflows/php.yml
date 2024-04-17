@@ -19,4 +19,4 @@ jobs:
           run: composer install -n --prefer-dist
 
       -   name: Run PHPUnit
-          run: php bin/phpunit
+          run: php vendor/bin/phpunit
